@@ -1,13 +1,50 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href = "index.css">
-    <script src="index.js"></script>
-<title> HawgsiPlaza 
-</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
 
-<center>
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
 
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+</style>
 </head>
+<body>
+
 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
@@ -20,7 +57,7 @@
 
 <div id="News" class="tabcontent">
   <h3>News</h3>
-  <p>Some news this fine day!</p>
+  <p>Some news this fine day!</p> 
 </div>
 
 <div id="Contact" class="tabcontent">
@@ -32,21 +69,25 @@
   <h3>About</h3>
   <p>Who we are and what we do.</p>
 </div>
-    
-<div class = "content">
-	<p> gungus schmungus </p>
-</div>
 
-<div title="Check out our Social Media!"><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <img src = "1MOA.jpg" alt = "Links to our Socials!" style = "width:250px;height:79px;"></div>
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
 
-<div class = "sticky">
-<table style = "background: linear-gradient(#409e9e, #264bab);">
-<tr>
-<td><a href = "cleaningregistration.html"> Register for Cleaning! </a></td>
-<td><a href = "companyhistory.html"> Company History </a></td>
-</tr>
-</table>
-</div>
-
-
-</html>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
