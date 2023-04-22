@@ -13,3 +13,15 @@ content: "";
 clear: both;
 display: table;
 }
+
+.img-container-two {
+float: left;
+width: 25%;
+padding: 5px;
+}
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
