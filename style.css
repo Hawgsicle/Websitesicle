@@ -19,7 +19,7 @@ float: left;
 width: 25%;
 padding: 5px;
 }
-.myBtn {
+#myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -35,6 +35,6 @@ padding: 5px;
   border-radius: 4px;
 }
 
-.myBtn:hover {
+#myBtn:hover {
   background-color: #555;
 }
