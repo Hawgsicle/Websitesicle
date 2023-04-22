@@ -4,13 +4,38 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="style.css">
       <title>HawgsiPlaza</title>
+      <style>
+      * {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
       </head>
       <body>
         <center>
 <div><h1>HawgsiPlaza</h1></div>
-<div style="float:left;padding:20px;background:red;">Div 1</div>
-<div style="float:left;padding:20px;background:yellow;">Div 2</div>
-<div style="float:left;padding:20px;background:green;">Div 3</div>
+<div class="clearfix">
+  <div class="img-container">
+  <img src="img_5terre.jpg" alt="Italy" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
 </center>
     </body>
 </html>
