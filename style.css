@@ -21,6 +21,7 @@ padding: 5px;
 }
 .mybutton {
   display: none;
+  align-self: center;
   position: fixed;
   bottom: 20px;
   z-index: 99;
