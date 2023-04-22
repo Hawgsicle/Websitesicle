@@ -2,26 +2,20 @@
 box-sizing: border-box;
 }
 
-.img-container {
+.column {
 float: left;
 width: 33.33%;
 padding: 5px;
 }
 
-.clearfix::after {
+.row::after {
 content: "";
 clear: both;
 display: table;
 }
 
-.img-container-two {
+.column-two {
 float: left;
 width: 25%;
 padding: 5px;
-}
-
-.clearfix::after {
-content: "";
-clear: both;
-display: table;
 }
