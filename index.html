@@ -6,6 +6,71 @@
       <title>HawgsiPlaza</title>
       <link rel="icon" type="image/x-icon" href="websitetitlelogo.png">
       <style type="text/css">
+      * {
+          margin: 0;
+          padding:0;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        background-color: white;
+      }
+
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+
+      .card button:hover {
+        opacity: 0.7;
+      }
+      .column {
+      flex: 33.33%;
+      padding: 5px;
+      }
+
+      .row {
+      display: flex;
+      }
+
+      .column-two {
+      flex: 25%;
+      padding: 5px;
+      }
+
+      .mybutton {
+        display: none;
+        align-self: center;
+        bottom: 20px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+
+      .mybutton:hover {
+        background-color: #555;
+      }
 </style>
       </head>
       <body>
