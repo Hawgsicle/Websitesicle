@@ -30,7 +30,28 @@ body {
 }
 
 /* Style the tab content */
-.tabcontent {
+.hotlinetabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background-color: #bbb;
+  border-top: none;
+}
+.patreontabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background-color: #bbb;
+  border-top: none;
+}
+.twitchtabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background-color: #bbb;
+  border-top: none;
+}
+.hometabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
