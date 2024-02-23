@@ -30,34 +30,13 @@ body {
 }
 
 /* Style the tab content */
-.hotlinetabcontent {
+.tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
-  background-color: red;
   border-top: none;
 }
-.patreontabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  background-color: orange;
-  border-top: none;
-}
-.twitchtabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  background-color: purple;
-  border-top: none;
-}
-.hometabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  background-color: white;
-  border-top: none;
-}
+
 
 .navbar {
   overflow: hidden;
