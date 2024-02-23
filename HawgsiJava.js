@@ -1,6 +1,6 @@
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
+  tabcontent = document.getElementsByClassName("hometabcontent","twitchtabcontent","patreontabcontent","hotlinetabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
