@@ -3,9 +3,9 @@
   src: url(shingopro.otf) format("opentype");
 }
 body {
+  cursor: url('patreon-logo.png'), auto;
   font-family: ShinGoPro;
   background-color: lightblue
-  cursor: url('patreon-logo.png'), auto;
 }
 
 .navbar {
