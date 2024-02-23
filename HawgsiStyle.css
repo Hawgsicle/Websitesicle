@@ -77,13 +77,13 @@ body {
   cursor: pointer;
 }
 
-.tab button1 {
+.tab button button1 {
   background-color: white;
   color: black;
   border: 2px solid #04AA6D;
 }
 
-.tab button1:hover {
+.tab button button1:hover {
   background-color: #04AA6D;
   color: white;
 }
