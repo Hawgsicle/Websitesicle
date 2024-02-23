@@ -3,7 +3,7 @@
   src: url(shingopro.otf) format("opentype");
 }
 body {
-  cursor: url('littleredheart.png'),auto;
+  cursor: url('littleredheart.png');
   font-family: ShinGoPro;
   background-color: lightblue
 }
