@@ -62,7 +62,7 @@ body {
 }
 .tab {
   overflow: hidden;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
 }
 
 /* Style the buttons inside the tab */
@@ -84,7 +84,7 @@ body {
 }
 
 .tab button button1:hover {
-  background-color: #04AA6D;
+  background-color: green;
   color: white;
 }
 
