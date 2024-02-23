@@ -1,5 +1,9 @@
+@font-face {
+  font-family: ShinGoPro;
+  src: url(A-OTF Shin Go Pro B.otf);
+}
 body {
-  font-family: Arial;
+  font-family: ShinGoPro;
   background-color: lightblue
 }
 
