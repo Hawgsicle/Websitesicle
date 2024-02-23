@@ -62,7 +62,7 @@ body {
 }
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
 }
 
 /* Style the buttons inside the tab */
