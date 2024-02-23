@@ -62,6 +62,7 @@ body {
 
 }
 .tab {
+  cursor: url('patreon-logo.png'), auto;
   overflow: hidden;
   border: 2px solid #000000;
 }
