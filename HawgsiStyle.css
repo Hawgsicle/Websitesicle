@@ -19,7 +19,6 @@ body {
   font-size:24px;
   display: inline-block;
   cursor: pointer;
-  background-color: blue;
   border: 2px solid black;
   border-bottom: none;
 }
@@ -28,4 +27,9 @@ body {
   display: none;
   padding: 6px 12px;
   border: 2px solid black;
+}
+
+.homebutton {
+  background-color: cornsilk;
+
 }
