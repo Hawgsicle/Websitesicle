@@ -74,9 +74,3 @@ body {
   border: 2px solid #000000;
   border-top: none;
 }
-.mycontainer {
-  display: flex;
-}
-.mycontainer > div {
-  width:33%;
-}
