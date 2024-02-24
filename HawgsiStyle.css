@@ -14,8 +14,9 @@ body {
 
 .tab button {
   font-family: ShinGoPro;
-  padding: 16px 32px;
+  padding: 8px 16px;
   text-align: center;
+  font-size:24px;
   display: inline-block;
   cursor: pointer;
   background-color: blue;
