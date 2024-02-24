@@ -3,6 +3,11 @@
   src: url(shingopro.otf) format("opentype");
 }
 
+body {
+  font-family: ShinGoPro;
+  background-color: lightblue
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
