@@ -18,9 +18,13 @@ body {
   text-align: center;
   display: inline-block;
   cursor: pointer;
+  background-color: blue;
+  border: 2px solid black;
+  border-bottom: none;
 }
 
 .tabcontent {
   display: none;
   padding: 6px 12px;
+  border: 2px solid black;
 }
