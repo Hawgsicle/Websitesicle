@@ -3,12 +3,6 @@
   src: url(shingopro.otf) format("opentype");
 }
 
-body {
-  cursor: url('pointer.png'),none;
-  font-family: ShinGoPro;
-  background-color: lightblue
-}
-
 .navbar {
   overflow: hidden;
   background-color: #333;
