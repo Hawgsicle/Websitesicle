@@ -15,7 +15,7 @@ body {
 }
 
 .tab button {
-  position:relative;
+  position:absolute;
   bottom:0px;
   font-family: ShinGoPro;
   text-align: center;
