@@ -24,7 +24,7 @@ body {
   cursor: pointer;
   border: 2px solid black;
   border-bottom: none;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .tab button:hover {
