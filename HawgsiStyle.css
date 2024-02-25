@@ -26,7 +26,7 @@ body {
 .tab button:hover {
   background-color: white;
   font-family: ShinGoPro;
-  padding: 16px 16px;
+  padding: 8px 16px;
   text-align: center;
   font-size:24px;
   display: inline-block;
