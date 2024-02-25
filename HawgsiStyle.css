@@ -14,7 +14,7 @@ body {
 
 .tab button {
   position:relative;
-  bottom:0px
+  bottom:0px;
   font-family: ShinGoPro;
   padding: 8px 16px;
   text-align: center;
@@ -28,7 +28,10 @@ body {
 .tab button:hover {
   background-color: white;
   font-family: ShinGoPro;
-  padding: 8px 24px;
+  padding-top: 24px;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  padding-left: 8px;
   text-align: center;
   font-size:24px;
   display: inline-block;
