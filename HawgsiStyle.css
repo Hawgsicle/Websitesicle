@@ -10,7 +10,7 @@ body {
 
 .tab {
   overflow: hidden;
-  padding-top: 8px;
+  height: 300px;
 }
 
 .tab button {
