@@ -9,12 +9,12 @@ body {
 }
 
 .tab {
+  background-color: blue;
   overflow: hidden;
   height: 300px;
 }
 
 .tab button {
-  background-color: blue;
   position:relative;
   bottom:0px;
   font-family: ShinGoPro;
