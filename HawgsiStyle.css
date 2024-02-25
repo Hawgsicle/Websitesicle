@@ -5,7 +5,8 @@
 
 body {
   font-family: ShinGoPro;
-  background-color: pink
+  background-color: pink;
+  overflow: hidden;
 }
 
 .tab {
