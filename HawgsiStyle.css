@@ -14,10 +14,10 @@ body {
 }
 
 .tab button {
+  background-color: blue;
   position:relative;
   bottom:0px;
   font-family: ShinGoPro;
-  padding: 8px 16px;
   text-align: center;
   font-size:24px;
   display: inline-block;
@@ -30,7 +30,6 @@ body {
 .tab button:hover {
   background-color: white;
   font-family: ShinGoPro;
-  padding: 16px;
   text-align: center;
   font-size:24px;
   display: inline-block;
