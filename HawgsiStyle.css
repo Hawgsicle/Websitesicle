@@ -6,11 +6,11 @@
 body {
   font-family: ShinGoPro;
   background-color: pink;
+  z-index: 2;
 }
 
 .tab {
   overflow: hidden;
-  z-index: 2;
 }
 
 .tab button {
