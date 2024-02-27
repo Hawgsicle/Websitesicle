@@ -5,36 +5,5 @@
 
 body {
   font-family: ShinGoPro;
-}
-
-.tab {
-  overflow: hidden;
-}
-
-.tab button {
-  font-family: ShinGoPro;
-  text-align: center;
-  font-size:24px;
-  display: inline-block;
-  cursor: pointer;
-  border: 2px solid black;
-  border-bottom: none;
-  transition: 0.2s;
-}
-
-.tab button:hover {
-  background-color: white;
-  font-family: ShinGoPro;
-  text-align: center;
-  font-size:24px;
-  display: inline-block;
-  cursor: pointer;
-  border: 2px solid black;
-  border-bottom: none;
-}
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 2px solid black;
+  background-image: linear-gradient(#eaaded,#ed8099);
 }
