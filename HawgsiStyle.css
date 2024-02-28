@@ -8,7 +8,7 @@ body, ul, li, h1, h2, a{
   font-family: ShinGoPro;
 }
 header{
-  background-color: #F63232;
+  background-color: #905ea9;
   padding:20px;
   text-align: center;
   position: fixed;
@@ -24,6 +24,31 @@ header h1{
   display: inline-block;
   border-radius: 36px;
 }
+.palestine{
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(black, white, green);
+  z-index: 2;
+  font-size: 1.3em;
+  border-right: solid black 6px;
+  border-bottom: solid black 6px;
+  border-radius: 0px 0px 16px 0px;
+}
+.palestine a{
+  text-align: center;
+  color: red;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.palestine a:visited{
+  color: red;
+}
+.palestine a:hover{
+  color: pink;
+}
 .banner{
   position: relative;
 }
@@ -34,7 +59,7 @@ nav{
   background-color: #F4F4F4;
   padding: 20px;
   position: sticky;
-  top: 105px;
+  top: 132px;
   text-align: center;
 }
 nav ul{
@@ -52,16 +77,16 @@ nav li a{
   color: #4B4B4B;
 }
 nav li a.join{
-  color: #F63232;
+  color: #905ea9;
 }
 nav li a.alien{
-  color: #F63232;
+  color: #905ea9;
 }
 nav li a.hotline{
-  color: #F63232;
+  color: #905ea9;
 }
 nav li a.news{
-  color: #F63232;
+  color: #905ea9;
 }
 main{
   max-width: 100%;
@@ -71,7 +96,7 @@ main{
   box-sizing: border-box;
 } 
 article h2{
-  color: #F63232;
+  color: #905ea9;
   font-size: 48px;
 }
 article p{
@@ -90,6 +115,7 @@ article p{
 }
 .images li img{
   max-width: 100%;
+  transition: 0.25s;
 }
 section.join{
   background-color: #f4f4f4;
@@ -108,20 +134,22 @@ form input{
   border: 4px solid white;
 }
 footer{
-  background-color: #F63232;
+  background-color: #905ea9;
   color: white;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
-
+.copyright a{
+  text-decoration: none;
+  color: white;
+}
 /* psuedo classes */
 
 nav li a:hover{
   text-decoration: underline;
 }
-.images li:hover{
-  position: relative;
-  top: -4px;
+.images li img:hover{
+  transform: scale(1.075);
 }
 form input:focus{
   border: 4px dashed #4b4b4b;
