@@ -5,7 +5,7 @@
 body, ul, li, h1, h2, a{
   margin: 0;
   padding: 0;
-  font-family: arial;
+  font-family: ShinGoPro;
 }
 header{
   background-color: #F63232;
@@ -30,14 +30,6 @@ header h1{
 .banner img{
   max-width: 100%;
 }
-.banner .welcome{
-  background-color: #FEB614;
-  color: white;
-  padding: 30px;
-  position: absolute;
-  left: 0;
-  top: 30%;
-}
 nav{
   background-color: #F4F4F4;
   padding: 20px;
@@ -60,6 +52,15 @@ nav li a{
   color: #4B4B4B;
 }
 nav li a.join{
+  color: #F63232;
+}
+nav li a.alien{
+  color: #F63232;
+}
+nav li a.hotline{
+  color: #F63232;
+}
+nav li a.news{
   color: #F63232;
 }
 main{
