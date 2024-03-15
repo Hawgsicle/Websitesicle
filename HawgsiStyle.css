@@ -92,11 +92,24 @@ nav li a.news{
   color: #905ea9;
 }
 main{
-  max-width: 50%;
-  width: 1200px;
+  max-width: 100%;
+  /* width: 1200px; */
   margin: 6% 0px;
   padding: 0 40px;
   box-sizing: border-box;
+}
+.blog{
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  width:50%;
+  max-height:100%;
+  height:1700px;
+  float:right;
+  margin:15px;
+  overflow-y:scroll;
+  overflow-wrap:break-word;
+  font-size: .9em;
 } 
 article h2{
   color: #905ea9;
@@ -113,7 +126,7 @@ article p{
 }
 .images li{
   display: inline-block;
-  width: 20%;
+  width: 15%;
   margin: 4px;
 }
 .images li img{
