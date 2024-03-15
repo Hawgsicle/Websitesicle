@@ -9,7 +9,8 @@ body, ul, li, h1, h2, a{
 }
 header{
   background-color: #905ea9;
-  padding:20px;
+  padding-top:20px;
+  padding-bottom: 20px;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -52,13 +53,16 @@ header h1{
 }
 .banner{
   position: relative;
+  width: 100%;
+  background-color: #eaaded;
 }
 .banner img{
-  width: 2400px;
-  max-width: 100%;
+  position: relative;
+  left: 30%;
+  width: 40%;
 }
 nav{
-  background-color: #F4F4F4;
+  background-color:cornsilk;
   padding: 20px;
   position: sticky;
   top: 132px;
