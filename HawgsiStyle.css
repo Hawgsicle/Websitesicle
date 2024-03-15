@@ -17,18 +17,7 @@ header{
   top: 0;
   left: 0;
 }
-.HOTLineHeader{
-  background-color: #C70039;
-  padding:20px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-}
-.HOTLineHeader h1{
-}
+
 header h1{
   color: white;
   border: 8px solid white;
@@ -103,9 +92,9 @@ nav li a.news{
   color: #905ea9;
 }
 main{
-  max-width: 100%;
+  max-width: 50%;
   width: 1200px;
-  margin: 80px auto;
+  margin: 6% 0px;
   padding: 0 40px;
   box-sizing: border-box;
 } 
@@ -118,7 +107,7 @@ article p{
   color: #4b4b4b;
 }
 .images{
-  text-align: center;
+  /* text-align: center; */
   margin: 40px;
   white-space:nowrap;
 }
