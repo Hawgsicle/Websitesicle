@@ -13,7 +13,6 @@
     text-align: center;
     position: fixed;
     width: 100%;
-    z-index: 1;
     top: 0;
     left: 0;
   }
@@ -24,21 +23,12 @@
     display: inline-block;
     border-radius: 36px;
   }
-
-  .banner{
-    position: relative;
-  }
-  .banner img{
-    width: 2400px;
-    max-width: 100%;
-  }
   nav{
     background-color: grey;
-    padding: 20px;
+    padding: 8px;
     position: sticky;
-    top: 132px;
+    top: 148px;
     text-align: center;
-    z-index: 1;
   }
   nav ul{
     white-space: nowrap;
