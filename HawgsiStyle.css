@@ -84,7 +84,7 @@ nav li a{
   color: #4B4B4B;
 }
 nav li a.join{
-  color: #905ea9;
+  color: lightblue;
 }
 nav li a.alien{
   color: #905ea9;
@@ -150,6 +150,17 @@ article p{
   max-height: 100%;
   vertical-align: middle;
   transition: 0.25s;
+}
+.join{
+  text-align: center;
+  margin: auto;
+  max-width: 60%;
+}
+.join p{
+  word-wrap: break-word;
+}
+.join h1{
+  font-size: 48px;
 }
 footer{
   background-color: #905ea9;
