@@ -74,12 +74,14 @@
     box-sizing: border-box;
   } 
   article h2{
-    color: #C70039;
+    color: gray;
     font-size: 48px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
   }
   article p{
     line-height: 2em;
-    color: #4b4b4b;
+    color: gray;
   }
 
   footer{
