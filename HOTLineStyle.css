@@ -23,6 +23,38 @@
     display: inline-block;
     border-radius: 36px;
   }
+  .palestine{
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    top: 0px;
+    left: 0px;
+    background-image: url("images/Flag_of_Palestine.png");
+    background-size: 100%;
+    z-index: 3;
+    border-right: solid black 6px;
+    border-bottom: solid black 6px;
+    border-radius: 0px 0px 16px 0px;
+    align-items: center;
+  }
+  .palestine a{
+    word-wrap: break-word;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    transition: 0.125s;
+    font-family: ShinGoPro;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 1px;
+    font-size: 36px;
+    line-height: 1.75;
+  }
+  .palestine a:visited{
+    color: red;
+  }
+  .palestine a:hover{
+    color: mediumvioletred;
+  }
   nav{
     background-color: grey;
     padding: 8px;
