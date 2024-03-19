@@ -22,10 +22,14 @@
     </ul>
   </nav>
   <main>
-    
+    <section></section>
   </main>
   <footer>
-    <p class="copyright">	<a href="sandwiches.html">&#169;</a> 2024 Hawgsicle &#183; v1.0.0 &#183; 3/18/2024</p>
+    <p class="copyright">	<a href="sandwiches.html">&#169;</a> 2024 Hawgsicle &#183; v1.0.0 &#183; <span id="demo"></span></p>
   </footer>
+  <script>
+    const d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+    </script>
 </body>
 </html>
