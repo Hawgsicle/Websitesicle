@@ -79,6 +79,7 @@ nav li a{
 nav li a.home{
   color: #905ea9;
 }
+
 footer{
   background-color: #2e222f;
   color: #625565;
@@ -99,12 +100,14 @@ footer{
   cursor: default;
   font-size: 7px;
 }
+
 /* psuedo classes */
 
 nav li a:hover{
   text-decoration: underline;
   text-decoration-thickness: 4px;
 }
+
 /* responsive styles */
 
 @media screen and (max-width: 1400px){
@@ -130,56 +133,60 @@ nav li a:hover{
     margin: 12px 0;
   }
   header{
+    padding-top:8px;
+    text-align: left;
     position: relative;
-  }
-  nav{
+    width: 100%;
+    height: 70px;
+    z-index: 2;
     top: 0;
-    padding: 2px;
+    left: 0;
   }
-  main{
-    padding: 5%;
-    margin: 0px 4px 0px;
-    height: 1600px;
+  header h1{
+    color: cornsilk;
+    padding: 6px 6%;
+    margin-right: 2.5%;
+    margin-left: 0;
+    display: inline-block;
   }
-  .blog{
+  header img{
+    height: 64px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 10px;
+    left: 10%;
+    z-index: -1;
+  }
+    nav{
+    text-align: center;
     position: relative;
     top: 0px;
-    width: 100%;
-    max-height: 200px;
+    height: 48px;
   }
-  .blog p{
-    margin-right: 10px;
-  }
-  article{
+  nav ul{
     position: relative;
-    top: 10%;
-    margin-top: 0px;
+    right: 2%;
+    white-space: nowrap;
+    max-width: 90%;
+    margin: 0 auto;
   }
-  article p{
-    font-size: small;
-    line-height: 1.25em;
-  }
-  .images li img{
-    max-height: 100%;
-    vertical-align: middle;
-    transition: 0.25s;
-  }
-  .images li{
+  nav li{
+    width: 30%;
     display: inline-block;
-    width: 75%;
-    max-width: 100%;
+    font-size: 12px;
   }
-  .images{
-    /* text-align: center; */
-    white-space:nowrap;
-    float: none;
-    width: 50%;
-    position: relative;
-    right: 20%;
-    top: 8%;
-    margin-bottom: 0px;
+  nav li a{
+    font-size: 12px;
+  }
+  .copyright a{
+    text-decoration: none;
+    cursor: default;
+    font-size: 6px;
   }
   .copyright{
-    font-size: .6em;
+    font-family: ShinGoPro;
+    cursor: default;
+    font-size: 6px;
   }
 }
