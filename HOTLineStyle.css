@@ -107,8 +107,11 @@
   footer{
     background-color: #4b1010;
     color: #900C3F;
-    padding: 5px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
   }
   .copyright a{
     text-decoration: none;
