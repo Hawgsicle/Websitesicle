@@ -6,7 +6,7 @@
   <link rel="icon" type="image/x-icon" href="images/websitetitlelogo.png">
   <title>HawgsiPlaza</title>
 </head>
-<body style="background-image: linear-gradient(red, black);">
+<body>
   <header>
     <img src="images/HOTlineLogo.png" class="banner">
   </header>
@@ -18,8 +18,8 @@
       <li><a href="HawgsiNews.html"> Newsletter</a></li>
     </ul>
   </nav>
-  <div style="text-align:center;margin: 9% auto 5%;" class="stream">
-    <iframe src="https://player.twitch.tv/?channel=hotlineradioshow&parent=hawgsiplaza.net" frameborder="0" allowfullscreen="true" scrolling="no" height="648" width="1152"></iframe>
+  <div style="text-align:center;margin: 7.5% auto 2%;" class="stream">
+    <iframe src="https://player.twitch.tv/?channel=hotlineradioshow&parent=hawgsiplaza.net" frameborder="0" allowfullscreen="true" scrolling="no" height="720" width="1280"></iframe>
 </div>
   <main>
     <article>
@@ -28,7 +28,11 @@
     </article>
   </main>
   <footer>
-    <p class="copyright">	<a href="sandwiches.html">&#169;</a> Copyright 2024 Hawgsicle</p>
+    <p class="copyright">	<a href="sandwiches.html">&#169;</a> 2024 Hawgsicle &#183; v1.0.0 &#183; <span id="demo"></span></p>
   </footer>
+  <script>
+    const d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+    </script>
 </body>
 </html>

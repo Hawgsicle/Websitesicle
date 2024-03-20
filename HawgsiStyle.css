@@ -123,9 +123,6 @@ nav li a:hover{
     margin: 20px auto;
     display: block;
   }
-  .palestine{
-    display: none;
-  }
 }
 @media screen and (max-width: 560px){
   nav li{
@@ -160,7 +157,7 @@ nav li a:hover{
     left: 10%;
     z-index: -1;
   }
-    nav{
+  nav{
     text-align: center;
     position: relative;
     top: 0px;

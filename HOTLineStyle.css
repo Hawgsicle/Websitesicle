@@ -2,101 +2,83 @@
     font-family: ShinGoPro;
     src: url(shingopro.otf) format("opentype");
   }
-  body, ul, li, h1, h2, a{
+  body, a{
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 450;
+    font-size: 18px;
+  }
+  body{
+    background-image: linear-gradient(#900C3F, #4b1010);
+  }
+  .flex-column {
+    flex-direction: column !important;
+  }
+  .min-vh-100 {
+    min-height: 100vh !important;
+  }
+  .d-flex {
+    display: flex !important;
+  }
+  h1, h2, ul, li, .main-nav a{
     margin: 0;
     padding: 0;
     font-family: ShinGoPro;
   }
   header{
-    background-color: #C70039;
-    padding:20px;
+    background-color: #900C3F;
     text-align: center;
-    position: fixed;
+    position: absolute;
     width: 100%;
+    height: 128px;
     top: 0;
     left: 0;
   }
-  header h1{
-    color: white;
-    border: 8px solid white;
-    padding: 6px 12px;
-    display: inline-block;
-    border-radius: 36px;
-  }
   .banner{
-    height:100px;
-    position: relative;
-    right:35px;
-  }
-  .palestine{
-    position: absolute;
-    height: 100%;
-    width: 15%;
-    top: 0px;
-    left: 0px;
-    background-image: url("images/Flag_of_Palestine.png");
-    background-size: 100%;
-    z-index: 3;
-    border-right: solid black 6px;
-    border-bottom: solid black 6px;
-    border-radius: 0px 0px 16px 0px;
-    align-items: center;
-  }
-  .palestine a{
-    word-wrap: break-word;
-    text-align: center;
-    color: red;
-    text-decoration: none;
-    transition: 0.125s;
-    font-family: ShinGoPro;
-    -webkit-text-stroke: white;
-    -webkit-text-stroke-width: 1px;
-    font-size: 36px;
-    line-height: 1.75;
-  }
-  .palestine a:visited{
-    color: red;
-  }
-  .palestine a:hover{
-    color: mediumvioletred;
-  }
-  nav{
-    background-color: grey;
-    padding: 8px;
-    position: sticky;
-    top: 148px;
-    text-align: center;
+      display: inline-block;
+      position: relative;
+      top: 12px;
+      height: 96px;
+      vertical-align: middle;
   }
   nav ul{
     white-space: nowrap;
-    max-width: 1200px;
+    max-width: 75%;
     margin: 0 auto;
   }
   nav li{
     width: 25%;
     display: inline-block;
     font-size: 24px;
+    padding-bottom: 8px;
+  }
+  nav li a{
+    font-family: ShinGoPro;
+    text-decoration: none;
+    color: #2e222f;
+  }
+  nav{
+    background-color: #C70039;
+    position: relative;
+    top: 128px;
+    text-align: center;
   }
   nav li a{
     text-decoration: none;
-    color: white;
-  }
-  nav li a.join{
-    color: #C70039;
-  }
-  nav li a.alien{
-    color: #C70039;
+    color: #4b1010;
   }
   nav li a.hotline{
-    color: #C70039;
+    color: #e83b3b;
   }
-  nav li a.news{
-    color: #C70039;
+  .stream iframe{
+  border: solid black 4px;
+  border-radius: 16px;
   }
   main{
     max-width: 100%;
     width: 1200px;
-    margin: 80px auto;
+    margin: 40px auto;
     padding: 0 40px;
     box-sizing: border-box;
   } 
@@ -120,17 +102,24 @@
   }
   .dickhead{
     font-size: .75em;
-    color: #4b1010;
+    color: #4b4b4b;
   }
   footer{
-    background-color: #900C3F;
-    color: white;
+    background-color: #4b1010;
+    color: #900C3F;
     padding: 5px;
     text-align: center;
   }
   .copyright a{
     text-decoration: none;
-    color: white;
+    color: #900C3F;
+    cursor: default;
+    font-size: 7px;
+  }
+  .copyright{
+    font-family: ShinGoPro;
+    cursor: default;
+    font-size: 7px;
   }
   
   /* psuedo classes */
@@ -140,13 +129,6 @@
   }
   .images li img:hover{
     transform: scale(1.075);
-  }
-  form input:focus{
-    border: 4px dashed #4b4b4b;
-    outline: none;
-  }
-  form input:valid{
-    border: 4px solid #71d300;
   }
 
   /* responsive styles */
@@ -164,24 +146,23 @@
     }
   }
   @media screen and (max-width: 560px){
-    nav li{
-      font-size: 20px;
-      display: block;
-      width: 100%;
-      margin: 12px 0;
-    }
     header{
       position: relative;
-    }
-    nav{
+      padding-top:8px;
+      text-align: left;
+      position: relative;
+      width: 100%;
+      height: 70px;
+      z-index: 2;
       top: 0;
-    }
-    .palestine{
-      display: none;
+      left: 0;
     }
     .banner{
-      height: 72px;
-      right: 64px;
+      display: inline-block;
+      position: relative;
+      top: 10%;
+      height: 48px;
+      vertical-align: middle;
     }
     .stream iframe{
       width: 320px;
@@ -210,5 +191,56 @@
     article .dickhead{
       font-size: 0.5em;
     }
+      .images li{
+    width: 75%;
+    margin: 20px auto;
+    display: block;
+  }
+  .copyright a{
+    text-decoration: none;
+    cursor: default;
+    font-size: 6px;
+  }
+  .copyright{
+    font-family: ShinGoPro;
+    cursor: default;
+    font-size: 6px;
+  }
+  nav li{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+  }
+  header img{
+    height: 64px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 10px;
+    left: 10%;
+    z-index: -1;
+  }
+    nav{
+    text-align: center;
+    position: relative;
+    top: 0px;
+    height: 48px;
+  }
+  nav ul{
+    position: relative;
+    right: 2%;
+    white-space: nowrap;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  nav li{
+    width: 30%;
+    display: inline-block;
+    font-size: 12px;
+  }
+  nav li a{
+    font-size: 12px;
+  }
   }
   
