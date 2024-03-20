@@ -80,7 +80,6 @@ nav li a.home{
 main{
   max-width: 75%;
   position: relative;
-  top: 200px;
 }
 footer{
   background-color: #2e222f;
@@ -112,25 +111,7 @@ nav li a:hover{
 
 /* responsive styles */
 
-@media screen and (max-width: 1400px){
-  nav li{
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 700px){
-  .images li{
-    width: 75%;
-    margin: 20px auto;
-    display: block;
-  }
-}
 @media screen and (max-width: 560px){
-  nav li{
-    font-size: 20px;
-    display: block;
-    width: 100%;
-    margin: 12px 0;
-  }
   header{
     padding-top:8px;
     text-align: left;
@@ -174,9 +155,14 @@ nav li a:hover{
     width: 30%;
     display: inline-block;
     font-size: 12px;
+    margin: 12px 0;
   }
   nav li a{
     font-size: 12px;
+  }
+  nav li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
   }
   .copyright a{
     text-decoration: none;
