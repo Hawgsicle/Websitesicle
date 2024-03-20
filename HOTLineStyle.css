@@ -154,14 +154,13 @@
       width: 100%;
       height: 70px;
       z-index: 2;
-      top: 0;
-      left: 0;
     }
     .banner{
       display: inline-block;
       position: relative;
-      top: 10%;
-      height: 48px;
+      top: 0px;
+      left: 0px;
+      height: 64px;
       vertical-align: middle;
     }
     .stream iframe{
@@ -178,6 +177,7 @@
     }
     article p{
       font-size: 0.6em;
+      line-height: 1.3em;
     }
     article h2{
       font-size: 20px;
