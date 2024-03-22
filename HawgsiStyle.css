@@ -83,7 +83,6 @@ nav li a.home{
 .btn {
   background-color: #a884f3;
   color: #625565;
-  /* padding: 12px 16px; */
   font-size: 16px;
   cursor: pointer;
   position: fixed;
@@ -96,6 +95,8 @@ nav li a.home{
   width: 80px;
   transition: 0.25s;
   cursor: default;
+  vertical-align: middle;
+  text-align: center;
 }
 .btn:hover {
   background-color: #eaaded;
