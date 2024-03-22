@@ -22,6 +22,8 @@
     </ul>
   </nav>
   <div class="btn"><img src="images/socialbutton.gif"  style="max-width: 70%;position: relative;top: 15%;"></div>
+  <main>
+    
   <section class="join">
     <h1>Join Today!</h1>
     <p>Join the Newsletter to recieve blog, merch, and stream updates!</p>
@@ -29,8 +31,13 @@
       <input type="email" name="email" placeholder="Type email & hit enter..." required>
     </form>
   </section>
+  </main>
   <footer>
-    <p class="copyright">	<a href="sandwiches.html">&#169;</a> Copyright 2024 Hawgsicle</p>
+    <p class="copyright">	<a href="sandwiches.html">&#169;</a> 2024 Hawgsicle &#183; v1.0.0 &#183; <span id="demo"></span></p>
   </footer>
+<script>
+  const d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+  </script>
 </body>
 </html>
