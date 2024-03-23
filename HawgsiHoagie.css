@@ -124,12 +124,14 @@ main{
   padding-top: 8px;
 }
 .sandwich{
+  background-color: #DA7C46;
   border: 1px solid #cd683d;
   max-width: 75%;
   margin: auto;
   padding: 10px;
-  max-height: 420px;
-  overflow: auto;
+  max-height: 220px;
+  overflow: hidden;
+  transition: 0.5s;
 }
 .sandwich h2{
   background: -webkit-linear-gradient(white, gold);
@@ -141,6 +143,12 @@ main{
 .sandwich br{
   line-height: 3;
 }
+.sandwich img{
+  float: left;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+}
 #hotline{    
   background-image: linear-gradient(#900C3F, #4b1010);
   border: 2px solid #C70039;
@@ -151,12 +159,6 @@ main{
   -webkit-text-stroke: red 1px;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-#hotline img{
-  float: left;
-  height: 200px;
-  margin: auto;
-  padding: 10px;
 }
 .join{
   text-align: center;
@@ -203,7 +205,14 @@ nav li a:hover{
   
   font-size: 1em;
 }
-
+.sandwich:hover{
+  border: 1px solid #cd683d;
+  max-width: 75%;
+  margin: auto;
+  padding: 10px;
+  max-height: 800px;
+  overflow: auto;
+}
 /* responsive styles */
 
 @media screen and (max-width: 560px){
