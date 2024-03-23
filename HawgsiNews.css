@@ -113,6 +113,15 @@ main{
   margin: auto;
   min-height: 100%;
 }
+.join{
+  text-align: center;
+}
+.join h1{
+  font-size: 128px;
+}
+.join p{
+  font-size: 32px;
+}
 footer{
   background-color: #313638;
   color: #0b5e65;
