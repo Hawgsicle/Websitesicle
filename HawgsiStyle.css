@@ -113,39 +113,6 @@ main{
   margin: auto;
   min-height: 100%;
 }
-.flex-container{
-  display: flex;
-  max-width: 80%;
-  padding-bottom: 24px;
-  padding-top: 24px;
-  position: relative;
-  left: 10%;
-}
-.block-container{
-  max-width: 80%;
-  padding-bottom: 48px;
-  position: relative;
-  left: 10%;
-}
-.flex-child{
-  background-color: #2e222f;
-  color: cornsilk;
-  padding: 15px;
-  border: solid 2px #625565;
-  border-radius: 16px;
-  flex: 1;
-  margin: auto;
-  word-wrap: break-word;
-  overflow: hidden;
-}
-.section{
-  background-color: #2e222f;
-  color: cornsilk;
-  padding: 15px;
-  border: solid 2px #625565;
-  border-radius: 16px;
-  margin: auto;
-}
 footer{
   background-color: #2e222f;
   color: #625565;
