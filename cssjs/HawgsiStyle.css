@@ -107,12 +107,7 @@ nav li a.home{
   font-size: 24px;
   cursor: default;
 }
-main{
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  min-height: 100%;
-}
+
 footer{
   background-color: #2e222f;
   color: #625565;
