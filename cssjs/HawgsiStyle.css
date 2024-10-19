@@ -57,10 +57,10 @@ nav li{
 nav li a{
   font-family: ShinGoPro;
   text-decoration: none;
-  color: #2e222f;
+  color: white;
 }
 nav li a.home{
-  color: #905ea9;
+  color: white;
 }
 .btn {
   background-color: #a884f3;
@@ -102,7 +102,7 @@ footer{
 }
 .copyright a{
   text-decoration: none;
-  color: #625565;
+  color: white;
   cursor: default;
   font-size: 7px;
 }
