@@ -68,34 +68,6 @@ nav li a{
 nav li a.home{
   color: white;
 }
-.btn {
-  background-color: #a884f3;
-  color: #625565;
-  font-size: 16px;
-  cursor: pointer;
-  position: fixed;
-  bottom: 6%;
-  right: 4%;
-  z-index: 2;
-  border: none;
-  border-radius: 40px;
-  height: 80px;
-  width: 80px;
-  transition: 0.25s;
-  cursor: default;
-  vertical-align: middle;
-  text-align: center;
-}
-.btn:hover {
-  background-color: #eaaded;
-  height: 120px;
-  width: 120px;
-  border-radius: 60px;
-  bottom: 4%;
-  right: 3%;
-  font-size: 24px;
-  cursor: default;
-}
 
 footer{
   color: white;
