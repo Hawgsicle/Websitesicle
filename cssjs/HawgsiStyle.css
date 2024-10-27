@@ -31,6 +31,8 @@ h1, h2, ul, li, .main-nav a{
   font-family: ShinGoPro;
 }
 header{
+  background-color: #323353;
+  text-align: center;
 }
 header h1{
   padding: 6px 10%;
@@ -39,12 +41,13 @@ header h1{
 }
 header img{
   position: relative;
-  height: 200%;
-  width: 100%;
+  width: 50%;
 }
 nav{
+  font-family: ShinGoPro;
   position: relative;
   text-align: center;
+  background-color: #4d9be6;
 }
 nav ul{
   white-space: nowrap;
