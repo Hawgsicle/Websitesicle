@@ -38,6 +38,9 @@ header h1{
   display: inline-block;
 }
 header img{
+  position: relative;
+  height: 200%;
+  width: 100%;
 }
 nav{
   position: relative;
