@@ -43,6 +43,20 @@ header img{
   position: relative;
   width: 50%;
 }
+.topleft {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 15%;
+  z-index: 1;
+}
+.topright {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 15%;
+  z-index: 1;
+}
 nav{
   font-family: ShinGoPro;
   position: relative;
@@ -72,7 +86,7 @@ nav li a.home{
 footer{
   color: white;
   text-align: center;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 24px;
