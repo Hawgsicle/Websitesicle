@@ -1,10 +1,10 @@
 
-@media (max-width: 768px){
+@media (max-width: 1000px){
     body {
         background-color: rebeccapurple;
     }
 }
-@media (min-width: 769px) {
+@media (min-width: 1001px) {
     body {
         background-color: #eee;
     }
